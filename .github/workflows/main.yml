@@ -1,13 +1,9 @@
 name: RDP-Windows2020
-
 on: workflow_dispatch
-
 jobs:
   build:
-
     runs-on: windows-2022
     timeout-minutes: 360
-
     steps:
     - name: Download Program Ngrok.
       run: |
